@@ -1,10 +1,13 @@
 {
   "name": "rochers",
-  "version": "1.0.0",
-  "description": "this is a test module to learn node",
+  "version": "1.1.0",
+  "description": "this is a test module to learn node with a CLI",
   "main": "index.js",
+  "bin": {
+    "rochers": "bin.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js | tap-spec"
   },
   "keywords": [
     "first"
@@ -12,6 +15,10 @@
   "author": "Scott Rocher",
   "license": "BSD",
   "dependencies": {
-    "blithe": "^1.0.0"
+    "blithe": "^1.0.3"
+  },
+  "devDependencies": {
+    "tap-spec": "^1.0.0",
+    "tape": "^3.0.0"
   }
 }
