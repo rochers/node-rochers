@@ -1,0 +1,17 @@
+{
+  "name": "rochers",
+  "version": "1.0.0",
+  "description": "this is a test module to learn node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "first"
+  ],
+  "author": "Scott Rocher",
+  "license": "BSD",
+  "dependencies": {
+    "blithe": "^1.0.0"
+  }
+}
